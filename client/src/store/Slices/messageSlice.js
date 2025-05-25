@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://major-project-1m4u.onrender.com';
 
 // Helper function for API calls
 const makeApiCall = async (endpoint, method = 'GET', body = null, isFormData = false) => {
