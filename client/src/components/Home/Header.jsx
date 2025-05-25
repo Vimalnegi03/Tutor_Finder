@@ -148,6 +148,22 @@ function Header() {
                                Library
                             </Link>
                         </li>
+                          <li>
+                            <Link
+                               to="/gpt-lite"
+                                className="text-lg font-medium hover:text-orange-400 transition-transform transform hover:scale-105"
+                            >
+                              Doubt-Solver
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                               to="/Notes"
+                                className="text-lg font-medium hover:text-orange-400 transition-transform transform hover:scale-105"
+                            >
+                              Notes
+                            </Link>
+                        </li>
                         <li>
                             <Link
                                 to="/dashboard"
