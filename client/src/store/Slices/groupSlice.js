@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { url } from '../../url';
 // Helper function for API calls with auth
 const makeApiCall = async (endpoint, method = 'GET', data = null, isFormData = false) => {
-  const url = `http://localhost:5000/api/groups${endpoint}`;
+  const url = `https://major-project-1m4u.onrender.com/api/groups${endpoint}`;
   const token = localStorage.getItem('authToken');
   
   const options = {
