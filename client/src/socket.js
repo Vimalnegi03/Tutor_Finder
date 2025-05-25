@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 import { socketMessageReceived } from './store/Slices/messageSlice'
-const socket = io('http://localhost:5000', {
+const socket = io('https://major-project-1m4u.onrender.com', {
   withCredentials: true,
   autoConnect: true
 });
