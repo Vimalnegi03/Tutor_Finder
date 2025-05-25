@@ -16,7 +16,7 @@ const httpServer = createServer(app);
 
 // CORS Middleware (must come before routes)
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://major-project-frontend-iqr1.onrender.com',
   credentials: true
 }));
 app.use(express.json());
@@ -24,7 +24,7 @@ app.use(express.json());
 // Initialize Socket.IO
 export const io = new Server(httpServer, {
   cors: {
-    origin: 'http://localhost:5173',
+    origin: 'https://major-project-frontend-iqr1.onrender.com',
     methods: ['GET', 'POST'],
     credentials: true
   }
