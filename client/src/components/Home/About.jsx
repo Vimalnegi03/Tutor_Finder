@@ -31,48 +31,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        {/* Member 2 */}
-        <div className="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
-          <img
-            src="./OIP.jpg"
-            alt="Team Member"
-            className="w-full h-48 object-cover"
-          />
-          <div className="p-4">
-            <h3 className="font-bold text-xl text-blue-700">Sarika Nautiyal</h3>
-            <p className="text-gray-600">
-              Passionate about education technology
-            </p>
-          </div>
-        </div>
-
-        {/* Member 3 */}
-        <div className="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
-          <img
-            src="./shi.jpg"
-            alt="Team Member"
-            className="w-full h-48 object-cover"
-          />
-          <div className="p-4">
-            <h3 className="font-bold text-xl text-blue-700">Shivam Rawat</h3>
-            <p className="text-gray-600">
-              Community Manager | Ensuring the best learning environment
-            </p>
-          </div>
-        </div>
-        <div className="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
-          <img
-            src="./ar.jpg"
-            alt="Team Member"
-            className="w-full h-48 object-cover"
-          />
-          <div className="p-4">
-            <h3 className="font-bold text-xl text-blue-700">Arjun Sariyal</h3>
-            <p className="text-gray-600">
-              Community Manager | Ensuring the best learning environment
-            </p>
-          </div>
-        </div>
+        
       </div>
 
       {/* Mission Section */}
