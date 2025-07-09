@@ -2,6 +2,25 @@
 
 An **Offline Learning System** that enables seamless interaction between learners and tutors, allowing both to upload profiles, match based on interests and skills, and initiate conversations if both parties show mutual interest. The system includes real-time chat functionality once learners and tutors connect.
 
+## UI-:
+### HomePage -:
+![Homepage](/HomePage.png)
+### About -:
+![About](/About.png)
+### Library -:
+![Library](/Library.png)
+### Notes -:
+![Notes](/Notes.png)
+### Doubt Solver -:
+![Doubt Solver](/Doubt_Solver.png)
+### Contact -:
+![Contact](/Contact.png)
+### Learner Dashboard -:
+![Learner Dashboard](/Learner_Dashboard.png)
+### Tutor Dashboard -:
+![Tutor Dashboard](/Tutor_Dashboard.png)
+### Chat
+![Chat](/Chat.png)
 ## Features
 
 - **User Roles**:
