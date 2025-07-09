@@ -1,8 +1,119 @@
-# Offline Learning System
+# 🎓 Tutor Finder — A Full-Stack Platform to Connect Students and Tutors
 
-An **Offline Learning System** that enables seamless interaction between learners and tutors, allowing both to upload profiles, match based on interests and skills, and initiate conversations if both parties show mutual interest. The system includes real-time chat functionality once learners and tutors connect.
+**Tutor Finder** is a feature-rich MERN stack web application that helps students find the best tutors based on location, subject, and availability. It supports everything from real-time chat and group creation to tutor reviews and media sharing.
 
-## UI-:
+
+
+## 🚀 Live Demo
+
+> 🌐 **Live App**: https://major-project-frontend-iqr1.onrender.com/  
+> 🧪 Sample Tutor Credentials  
+> 📧 Email: `vimalnegi2003@gmail.com`  
+> 🔐 Password: `Vimal@1234`
+> > 🧪 Sample Learner Credentials  
+> 📧 Email: `vicky2003@gmail.com`  
+> 🔐 Password: `Vicky@1234`
+
+
+
+## ✨ Core Features
+
+### 👥 Authentication & Roles
+- Secure JWT-based login/signup
+- Role-specific dashboards (Tutor & Student)
+- Password encryption with `bcrypt`
+
+### 👨‍🏫 Tutor Functionality
+- Create & manage detailed tutor profile
+- Define subjects, location, experience
+- **Create study groups** and manage student requests
+- View and reply to messages
+- **Receive student reviews and ratings**
+
+### 👨‍🎓 Student Functionality
+- Search tutors by subject or city
+- Request to join 1:1 or group sessions
+- **Review and rate tutors** after sessions
+- Chat with tutors in real-time
+
+### 💬 Real-Time Messaging
+- Built using **Socket.IO**
+- **1:1 Chat** and **Group Chat** support
+- **Live typing indicators** and timestamps
+
+### 📎 Multimedia Sharing
+- Send **images,  videos, and files** in chat
+- Media preview in chat
+- File upload with **Multer** and**Cloudinary** support
+
+### ⭐ Ratings & Reviews
+- Students can leave **star-based ratings** with **comments**
+- Optional text feedback for tutors
+- Tutor dashboard shows average rating & reviews
+
+### 🔔 Notifications
+- Live alerts on message and request activity
+- New group request notifications for tutors
+
+---
+
+## 🧰 Tech Stack
+
+| Layer         | Technologies                          |
+|---------------|----------------------------------------|
+| Frontend      | React.js, Redux Toolkit, Tailwind CSS  |
+| Backend       | Node.js, Express.js                    |
+| Database      | MongoDB + Mongoose                     |
+| Realtime Chat | Socket.IO                              |
+| File Upload   | Multer + Cloudinary          |
+| Authentication| JWT + bcrypt                           |
+| State Mgmt    | Redux Toolkit                          |
+
+---
+
+## 📁 Project Structure
+```
+Tutor_Finder/
+├── client/ # React app
+│ ├── components/ # Shared UI components
+│ ├── pages/ # Login, Dashboard, Profile, etc.
+│ ├── redux/ # Redux slices & store
+│ └── App.js
+├── server/ # Express + MongoDB backend
+│ ├── controllers/ # Logic for auth, users, chat
+│ ├── middleware/ # JWT, error handling, file upload
+│ ├── models/ # MongoDB schemas
+│ ├── routes/ # API route handlers
+│ ├── socket/ # Socket.IO configuration
+│ └── server.js
+```
+## ⚙️ Local Setup
+
+### 1. Clone the Project
+
+```
+git clone https://github.com/Vimalnegi03/Tutor_Finder.git
+cd Tutor_Finder
+```
+ **2. Backend Setup**
+ ```
+cd server
+npm install
+```
+**Run the backend:**
+```
+npm run dev
+```
+**3. Frontend Setup**
+```
+cd ../client
+npm install
+npm start
+```
+**Frontend: http://localhost:3000**
+**Backend: http://localhost:5000**
+
+## 🖼️ Screenshots-:
 ### HomePage -:
 ![Homepage](/HomePage.png)
 ### About -:
@@ -21,47 +132,9 @@ An **Offline Learning System** that enables seamless interaction between learner
 ![Tutor Dashboard](/Tutor_Dashboard.png)
 ### Chat
 ![Chat](/Chat.png)
-## Features
 
-- **User Roles**:
-  - **Learner**: Can view tutor profiles and swipe right if interested.
-  - **Tutor**: Can view learner profiles who have swiped right on them and connect with learners by swiping right in return.
-  - **Admin**: Can view and manage all users.
-  
-- **User Matching**: Learners and tutors are matched based on skills and distance (within 10km).
-  
-- **Swipe & Connect**: Both learners and tutors can swipe right to express interest. If both swipe right, they can connect and chat.
-  
-- **Profile Management**: 
-  - **Learner Profile**: Name, skills, location, photo, and other relevant details.
-  - **Tutor Profile**: Profession, degrees, skills, and photo.
-  
-- **Location-based Search**: Tutors are filtered based on location proximity to the learner using OpenStreetMap (OSM) and Nominatim for geolocation services.
-  
-- **Real-time Chat**: Chat functionality between learners and tutors using **Socket.io**.
-  
-- **Offline Mode**: Both learners and tutors can manage their profiles and interactions offline. Chat history can be viewed offline.
+👨‍💻 Author
+Vimal Negi
+📎 GitHub: @Vimalnegi03
+🔗 LinkedIn: www.linkedin.com/in/vimal-negi
 
-## Tech Stack
-
-- **Frontend**: React, Tailwind CSS, Daisy UI
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Geolocation**: OpenStreetMap (OSM) and Nominatim
-- **Real-time Communication**: Socket.io
-- **Authentication**: JWT-based authentication
-
-## Installation
-
-### Prerequisites
-
-- **Node.js**: Ensure you have Node.js installed. You can download it from [Node.js](https://nodejs.org/).
-- **MongoDB**: MongoDB should be installed or you can use a cloud instance like MongoDB Atlas.
-  
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/offline-learning-system.git
-cd offline-learning-system
-```
-Made with❤️ by Vimal Negi
