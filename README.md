@@ -130,8 +130,17 @@ npm start
 ![Learner Dashboard](/Learner_Dashboard.png)
 ### Tutor Dashboard -:
 ![Tutor Dashboard](/Tutor_Dashboard.png)
-### Chat
+### Chat -:
 ![Chat](/Chat.png)
+### Groups -:
+![Tutor Dashboard](/Groups.png)
+### Group_Members -:
+![Chat](/Group_Members.png)
+### Group Chat -:
+![Tutor Dashboard](/Group_chat.png)
+### Edit Group -:
+![Chat](/Edit_Group.png)
+
 
 👨‍💻 Author
 Vimal Negi
