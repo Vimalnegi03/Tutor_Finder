@@ -112,7 +112,8 @@ npm start
 ```
 **Frontend: http://localhost:3000**
 **Backend: http://localhost:5000**
-
+## 🚀 Schemas-:
+![Homepage](/LMS_Schema.png)
 ## 🖼️ Screenshots-:
 ### HomePage -:
 ![Homepage](/HomePage.png)
