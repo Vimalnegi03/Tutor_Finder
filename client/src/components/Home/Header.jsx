@@ -22,7 +22,7 @@ function Header() {
                 <nav className="container mx-auto flex justify-between items-center px-4">
                     {/* Logo */}
                     <Link to="#" className="text-orange-500 text-3xl font-extrabold tracking-wide">
-                        LMS
+                        Tutor_Finder
                     </Link>
 
                     {/* Desktop Navigation */}
