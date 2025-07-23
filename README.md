@@ -1,6 +1,7 @@
 # 🎓 Tutor Finder — A Full-Stack Platform to Connect Students and Tutors
 
 **Tutor Finder** is a feature-rich MERN stack web application that helps students find the best tutors based on location, subject, and availability. It supports everything from real-time chat and group creation to tutor reviews and media sharing.
+<img src="/Tutor_Finder.png" alt="Tutor Finder Homepage" width="500" height="400"/>
 
 
 
